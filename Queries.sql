@@ -1,6 +1,6 @@
 1. Report:
 
-How many rows do i have in each table in the employees database?
+How many rows do i have in each table in the jamal_ahmed database?
 
 SELECT table_schema, table_name, table_rows FROM information_schema.tables WHERE TABLE_SCHEMA = 'employees' ORDER BY table_rows DESC ;
 
